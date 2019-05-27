@@ -21,6 +21,7 @@ export class AppComponent {
 
   constructor(private adal: AdalService) {
     this.adal.init(this.adalConfig);
+    
   }
  
   signOut(): void {

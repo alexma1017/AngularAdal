@@ -12,11 +12,10 @@ export class AppComponent {
   private adalConfig = {
     tenant: '07d49e41-0c9d-4d94-b0f9-17e89a47fdd9',
     clientId: '142a8de3-c2ae-441d-923b-94c38724038b',
-    redirectUri: "http://localhost:4200/start",
+    redirectUri: "http://localhost:4200/auth-callback",
     postLogoutRedirectUri: "http://localhost:4200/logout",
     endpoints: {
-      //alex later
-      "[HOME_URL_WEB_API]": "[HOME_WEB_API_GUID]"
+      "http://localhost:58434": "f4296393-ff04-4bf1-8445-c0b6c40aa1e5"
     }
   }
 
